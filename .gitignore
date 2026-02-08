@@ -1,0 +1,6 @@
+.cpcache/
+secrets.edn
+
+.clj-kondo
+.lsp
+

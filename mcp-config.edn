@@ -1,0 +1,16 @@
+{
+ :query { :endpoint "https://supabase-n8n-mcp.jeffry-c76.workers.dev/sse"
+          :timeout 30000
+        }
+ ;; Example: File system MCP server
+ ;; :filesystem {:endpoint "http://localhost:8080/mcp"
+ ;;              :timeout 30000}
+
+ ;; Example: Database MCP server
+ ;; :database {:endpoint "https://your-db-mcp.example.com/mcp"
+ ;;            :timeout 45000}
+
+ ;; Example: Git MCP server
+ ;; :git {:endpoint "https://git-mcp.example.com/mcp"
+ ;;       :timeout 30000}
+}

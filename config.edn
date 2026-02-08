@@ -1,0 +1,10 @@
+{
+ :default-llm {:model "gpt-4o",
+                :temperature 0.0,
+                :max-tokens 1000,
+                :top-p 1.0,
+                :frequency-penalty 0.0,
+                :presence-penalty 0.0,
+                :stop ["\n", "Human:", "AI:"]},
+ 
+ }
